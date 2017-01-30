@@ -41,10 +41,16 @@ function displayAllPets() {
 
 
 $(document).ready(function() {
+
+
   // Get template for pets
   petTemplate = $(petTemplateId).html();
 
   // Display all pets
   displayAllPets();
 
+  $(".petName").click(function() {
+    $(this).parent().nextAll(".petInfoParagraph").first().toggle();
+
+  });
 }); // End document ready

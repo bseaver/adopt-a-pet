@@ -2,6 +2,11 @@ img {
   max-width: 300px;
 }
 
-#infoParagraph {
+.petInfoParagraph {
   display: none;
+}
+
+.petName:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
