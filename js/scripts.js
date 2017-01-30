@@ -43,6 +43,8 @@ function displayAllPets(availabilitySelection) {
 
 
 $(document).ready(function() {
+
+
   // Get template for pets
   petTemplate = $(petTemplateId).html();
 
@@ -51,5 +53,9 @@ $(document).ready(function() {
 
   $(".radio input").click(function(){
     displayAllPets( $(this).val() );
+  });
+  
+  $(".petName").click(function() {
+    $(this).parent().nextAll(".petInfoParagraph").first().toggle();
   });
 }); // End document ready
