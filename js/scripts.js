@@ -1,0 +1,15 @@
+  ////////////////////
+ // Back End Section
+////////////////////
+
+
+  /////////////////////
+ // Front End Section
+/////////////////////
+
+
+
+$(document).ready(function() {
+
+
+}); // End document ready
