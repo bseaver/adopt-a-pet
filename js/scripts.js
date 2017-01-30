@@ -1,15 +1,15 @@
   ////////////////////
  // Back End Section
 ////////////////////
-petTypes = [
+var petTypes = [
   ["cat"],
   ["dog"]
-]
+];
 
-pets = [
+var pets = [
   ["1", "Spot", "3", "dog", "sampleDog.jpg", "40 pounds", "Medium spotted dog originally from Africa.  Avoid exposure to chickens.", "A picture of Spot"],
   ["2", "Fluffy", "9", "cat", "samplePig.jpg", "10 pounds", "Loves sitting in the window watching you chickens", "A picture of Fluffy"]
-]
+];
 
   /////////////////////
  // Front End Section
